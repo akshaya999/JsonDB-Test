@@ -1,0 +1,100 @@
+{
+    "courses": [
+        {
+            "course_id": "CS101",
+            "title": "Introduction to Computer Science",
+            "description": "Basics of computer science and programming.",
+            "instructor": "Dr. Alice Smith",
+            "enrolled_students": [
+                "S001",
+                "S002",
+                "S003"
+            ],
+            "course_materials": [
+                {
+                    "type": "Lecture",
+                    "title": "Lecture 1: Basics of Programming"
+                },
+                {
+                    "type": "Assignment",
+                    "title": "Assignment 1: Hello World Program"
+                }
+            ]
+        },
+        {
+            "course_id": "DS102",
+            "title": "Data Science Basics",
+            "description": "Introduction to data science and its applications.",
+            "instructor": "Dr. Bob Johnson",
+            "enrolled_students": [
+                "S002",
+                "S003",
+                "S004"
+            ],
+            "course_materials": [
+                {
+                    "type": "Lecture",
+                    "title": "Lecture 1: Introduction to Data Science"
+                },
+                {
+                    "type": "Assignment",
+                    "title": "Assignment 1: Data Analysis"
+                }
+            ]
+        }
+    ],
+    "students": [
+        {
+            "student_id": "S001",
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "enrolled_courses": [
+                "CS101"
+            ]
+        },
+        {
+            "student_id": "S002",
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "enrolled_courses": [
+                "CS101",
+                "DS102"
+            ]
+        },
+        {
+            "student_id": "S003",
+            "name": "Tom Brown",
+            "email": "tom.brown@example.com",
+            "enrolled_courses": [
+                "CS101",
+                "DS102"
+            ]
+        },
+        {
+            "student_id": "S004",
+            "name": "Lucy Green",
+            "email": "lucy.green@example.com",
+            "enrolled_courses": [
+                "DS102"
+            ]
+        }
+    ],
+    "instructors": [
+        {
+            "instructor_id": "I001",
+            "name": "Dr. Alice Smith",
+            "specialty": "Computer Science",
+            "teaching_courses": [
+                "CS101"
+            ]
+        },
+        {
+            "instructor_id": "I002",
+            "name": "Dr. Bob Johnson",
+            "specialty": "Data Science",
+            "teaching_courses": [
+                "DS102"
+            ]
+        }
+    ]
+}
